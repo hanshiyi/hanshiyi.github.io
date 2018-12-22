@@ -17,6 +17,8 @@
 
 
 
+  <meta name="description" content="Notes for RE for bio-abstract"/>
+
 
 
 
@@ -38,7 +40,7 @@
 
 
 
-<link rel="canonical" href="http://hanshiyi.github.io/archives/2018/04/"/>
+<link rel="canonical" href="http://hanshiyi.github.io/2018/12/21/Notes-for-RE-for-bio-abstract/"/>
 
 
 <link rel="stylesheet" type="text/css" href="/css/style.css?v=2.6.0" />
@@ -83,11 +85,7 @@
 
 
 
-    <title>
-  
-    Archives - Michael's Blog
-  
-</title>
+    <title> Notes for RE for bio-abstract - Michael's Blog </title>
   </head>
 
   <body><div id="mobile-navbar" class="mobile-navbar">
@@ -181,55 +179,112 @@
           <div id="content" class="content">
             
   
-  <section id="archive" class="archive">
-    
-      
-        <div class="archive-title">
-          <span class="archive-post-counter">
-            3 Posts In Total
-          </span>
-        </div>
-      
-    
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          Notes for RE for bio-abstract
+        
+      </h1>
 
-    
-      
+      <div class="post-meta">
+        <span class="post-time">
+          2018-12-21
+        </span>
         
         
-
-        
-          
-          <div class="collection-title">
-            <h2 class="archive-year">2018</h2>
+        <div class="post-visits"
+             data-url="/2018/12/21/Notes-for-RE-for-bio-abstract/"
+             data-title="Notes for RE for bio-abstract">
+            阅读次数
           </div>
         
+      </div>
+    </header>
+
+    
+    
+  <div class="post-toc" id="post-toc">
+    <h2 class="post-toc-title">Contents</h2>
+    <div class="post-toc-content">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Notes-for-Simultaneously-Self-Attending-to-All-Mentions-for-Full-Abstract-Biological-Relation-Extraction"><span class="toc-text">Notes for Simultaneously Self-Attending to All Mentions for Full-Abstract Biological Relation Extraction</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Details-of-the-model"><span class="toc-text">Details of the model</span></a></li></ol></li></ol></li></ol>
+    </div>
+  </div>
+
+
+    <div class="post-content">
+      
+        <h1 id="Notes-for-Simultaneously-Self-Attending-to-All-Mentions-for-Full-Abstract-Biological-Relation-Extraction"><a href="#Notes-for-Simultaneously-Self-Attending-to-All-Mentions-for-Full-Abstract-Biological-Relation-Extraction" class="headerlink" title="Notes for Simultaneously Self-Attending to All Mentions for Full-Abstract Biological Relation Extraction"></a>Notes for Simultaneously Self-Attending to All Mentions for Full-Abstract Biological Relation Extraction</h1><p>###Contribution</p>
+<ol>
+<li>Propose that current relation extraction models are lack of cross-sentence and cross-mention consideration which occured frequently. (loss of corse-sentence and cross-mention reasoning capability)</li>
+<li>Point out old models are inefficient by independently extracting features and score each pair.</li>
+<li>Introducing BRAN which synthesize convolutions and self-attention(modified on transformer). This model can score all pairs of mentions in parallel using a bi-affine operator and have some sort of way to combine them.</li>
+<li>Their model are jointly training relation extranction and NER. It seems to bring some recall increase.</li>
+</ol>
+<h3 id="Details-of-the-model"><a href="#Details-of-the-model" class="headerlink" title="Details of the model"></a>Details of the model</h3><ul>
+<li>BRAN will first tokenize the text by using subword to combine words. I guest they did this because there are many “new” words in the biological articles.</li>
+<li>They use multi-instance learing which will consider all pairs together by using attention</li>
+<li>Joint training NER will have some increase of recall score</li>
+</ul>
+<p><a href="https://arxiv.org/pdf/1802.10569.pdf" target="_blank" rel="noopener">Paper Link</a></p>
+
+      
+    </div>
+
+    
+      
       
 
-      <div class="archive-post">
-        <span class="archive-post-time">
-          
-            04-30
-          
-        </span>
-        <span class="archive-post-title">
-          <a href="/2018/04/30/hello-world/" class="archive-post-link">
-            Hello Blog
-          </a>
-        </span>
-      </div>
-    
-  </section>
+  <div class="post-copyright">
+    <p class="copyright-item">
+      <span>Author: </span>
+      <a href="http://hanshiyi.github.io">Shiyi(Michael) Han</a>
+    </p>
+    <p class="copyright-item">
+      <span>Link: </span>
+      <a href="http://hanshiyi.github.io/2018/12/21/Notes-for-RE-for-bio-abstract/">http://hanshiyi.github.io/2018/12/21/Notes-for-RE-for-bio-abstract/</a>
+    </p>
+    <p class="copyright-item">
+      <span>License: </span>
+      
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>
+    </p>
+  </div>
 
-  
-  <nav class="pagination">
+
+
+      
+      
     
+
+    
+      <footer class="post-footer">
+        
+        
+        
+  <nav class="post-nav">
+    
+    
+      <a class="next" href="/2018/12/11/LaTex-Notes/">
+        <span class="next-text nav-default">LaTex Notes</span>
+        <span class="prev-text nav-mobile">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
     
   </nav>
 
+      </footer>
+    
+
+  </article>
 
 
           </div>
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
       </main>
@@ -309,6 +364,11 @@
     </div>
 
     
+  
+  
+
+  
+
 
 
     
