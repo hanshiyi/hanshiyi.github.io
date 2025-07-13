@@ -1,0 +1,141 @@
+# Site Settings
+locale                   : "en-US"
+title                    : "Michael (Shiyi) Han"
+name                     : "Michael (Shiyi) Han"
+description              : "Write some thoughts here."
+url                      : "https://hanshiyi.github.io"
+baseurl                  : ""
+repository               : "hanshiyi/hanshiyi.github.io"
+theme                    : "minimal-mistakes-jekyll"
+# Site Author
+author:
+  name                   : "Michael (Shiyi) Han"
+  avatar                 : "assets/images/bio-photo.jpg"
+  bio                    : "Researcher in machine learning, natural language processing, and audio processing."
+  location               : "Mountain View, CA"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:shiyi_han@alumni.brown.edu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hanshiyi"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/shiyi-michael-h-941620120/"
+
+# Minimal Mistakes theme settings
+minimal_mistakes_skin    : "air" # "air", "contrast", "dark", "dirt", "sunrise"
+
+# Site Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:shiyi_han@alumni.brown.edu"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/hanshiyi"
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://www.linkedin.com/in/shiyi-michael-h-941620120/"
+
+# Reading Files
+include:
+  - _pages
+  - _posts
+  - _drafts
+  - _data
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: archive
+      author_profile: false
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      show_date: true
+      classes: wide
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: archive
+      author_profile: false
+      classes: wide
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Archives
+archive:
+  layout: "archive"
+  permalink: /:year/
+  year: /:year/
+  month: /:year/:month/
+  day: /:year/:month/:day/
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# SEO
+title_separator: "|"
+description: "Write some works here"
+keywords: "Michael Han, Shiyi Han, Machine Learning, NLP, Research, Academic"
+
+# Social Sharing
+twitter:
+  username: ""
+  card: "summary_large_image"
+
+# Comments
+comments: false
+
+# Search
+search: true
+search_full_content: true
+
+# Reading Time
+read_time: true
+
+# Related Posts
+related: true
+
+# Table of Contents
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "fas fa-list"
+
+# Sidebar
+sidebar:
+  nav: "sitetoc"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/ 
