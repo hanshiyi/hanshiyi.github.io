@@ -13,7 +13,6 @@ group :jekyll_plugins do
   gem "jekyll-sitemap", "~> 1.4"
   gem "jekyll-gist", "~> 1.5"
   gem "jekyll-feed", "~> 0.17"
-  gem "jemoji", "~> 0.13"
   gem "jekyll-include-cache", "~> 0.2"
   gem "jekyll-seo-tag", "~> 2.8"
   gem "jekyll-archives", "~> 2.2"
