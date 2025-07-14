@@ -6,6 +6,9 @@ gem "jekyll", "~> 4.3.0"
 # Minimal Mistakes theme
 gem "minimal-mistakes-jekyll", "~> 4.24.0"
 
+# Force nokogiri to a version compatible with Ruby 3.2
+gem "nokogiri", "~> 1.16.0"
+
 # Jekyll plugins
 group :jekyll_plugins do
   gem "jekyll-paginate", "~> 1.1"
