@@ -6,7 +6,7 @@ classes: wide
 ---
 
 
-I am a Senior Researcher at Google DeepMind, specializing in multimodal machine learning with a primary focus on audio, post-training, and reinforcement learning. I contributed to the development and delivery of the Gemini 2.5 series, advancing state-of-the-art audio generation.
+I am a Senior Researcher at Google DeepMind, specializing in multimodal machine learning with a primary focus on audio, post-training, and reinforcement learning. I am a core contributor to the development and delivery of the Gemini 2.5 series, advancing state-of-the-art audio generation.
 
 ### Research Interests
 
