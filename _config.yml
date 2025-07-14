@@ -95,7 +95,8 @@ archive:
   day: /:year/:month/:day/
 
 # Pagination
-paginate: 5
+# Disable pagination for now since we don't have posts
+paginate: false
 paginate_path: "/page:num/"
 
 # SEO

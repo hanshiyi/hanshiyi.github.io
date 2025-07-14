@@ -83,7 +83,3 @@ I am a Senior Researcher at Google DeepMind, specializing in multimodal machine 
 ### Favorite place
 
 So far, probably Tokyo ≈ NYC ≥ London > Bay Area ≈ Seattle. I'm a foodie, so I'm very biased because of that.
-
----
-
-*This website is built using the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) Jekyll theme.* 
