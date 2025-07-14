@@ -31,9 +31,12 @@ jobs:
         with:
           ruby-version: '3.2'
           bundler-cache: true
+      - name: Install dependencies
+        run: |
+          bundle config set --local path 'vendor/bundle'
+          bundle install --jobs 4 --retry 3
       - name: Build with Jekyll
         run: |
-          bundle install
           bundle exec jekyll build --baseurl "${{ steps.dpo.outputs.base_path }}"
         env:
           JEKYLL_ENV: production

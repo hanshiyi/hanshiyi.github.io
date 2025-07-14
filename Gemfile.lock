@@ -129,14 +129,14 @@ DEPENDENCIES
   debug
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.0)
-  jekyll-archives
-  jekyll-feed
-  jekyll-gist
-  jekyll-include-cache
-  jekyll-paginate
-  jekyll-seo-tag
-  jekyll-sitemap
-  jemoji
+  jekyll-archives (~> 2.2)
+  jekyll-feed (~> 0.17)
+  jekyll-gist (~> 1.5)
+  jekyll-include-cache (~> 0.2)
+  jekyll-paginate (~> 1.1)
+  jekyll-seo-tag (~> 2.8)
+  jekyll-sitemap (~> 1.4)
+  jemoji (~> 0.13)
   minimal-mistakes-jekyll (~> 4.24.0)
   tzinfo (>= 1)
   tzinfo-data
