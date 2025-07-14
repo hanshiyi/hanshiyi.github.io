@@ -7,6 +7,20 @@ url                      : "https://hanshiyi.github.io"
 baseurl                  : ""
 repository               : "hanshiyi/hanshiyi.github.io"
 theme                    : "minimal-mistakes-jekyll"
+
+# Analytics
+analytics:
+  provider: google-gtag  # google-gtag, google-universal, custom
+  google:
+    tracking_id: "G-KTXJPS0HK5"  # Your Google Analytics 4 Measurement ID
+    anonymize_ip: true
+  # Alternative: Plausible Analytics (privacy-friendly)
+  # plausible:
+  #   domain: "hanshiyi.github.io"
+  # Alternative: Simple Analytics (privacy-friendly)
+  # simple_analytics:
+  #   domain: "hanshiyi.github.io"
+
 # Site Author
 author:
   name                   : "Michael (Shiyi) Han"
