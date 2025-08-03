@@ -6,7 +6,7 @@ classes: wide
 ---
 
 
-I am a Senior Researcher at Google DeepMind, specializing in multimodal machine learning with a primary focus on audio, post-training, and reinforcement learning. I am a core contributor to the development and delivery of the Gemini 2.5 series, advancing state-of-the-art audio generation.
+I am a researcher at Google DeepMind, specializing in multimodal machine learning with a primary focus on audio, post-training, and reinforcement learning. I am a core contributor to the development and delivery of the Gemini 2.5 series, advancing state-of-the-art audio generation.
 
 ### Research Interests
 
@@ -48,7 +48,8 @@ I am a Senior Researcher at Google DeepMind, specializing in multimodal machine 
 - *Researcher*, **Character AI**
   - Worked on voice cloning and text-to-speech.
 - *Senior Researcher*, **Apple**
-  - Improved Siri's ASR quality by rewriting the entire system to close the gap with competitors, resulting in a significant increase in user engagement worldwide.
+  - Improved on device ASR from model, algorithm and system levels.
+  - Projects I have worked on were showcased at WWDC 2023/2024. They were mentioned in MKBHD's videos and received positive reactions. The usage of our on-device ASR system increased 2 to 6 times in many locales.
 - *ML Engineer*, **LinkedIn**
   - Worked on named entity tagging and linking to resolve ambiguous entities in the knowledge graph.
 - *M.S. in Computer Science*, **Brown University**
